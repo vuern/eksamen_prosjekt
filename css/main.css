@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #232323;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+nav.main-nav {
+    margin: 1em 0;
+}
+nav.main-nav > div + div {
+    margin-top: 0.5em;
+}

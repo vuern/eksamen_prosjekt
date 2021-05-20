@@ -37,31 +37,61 @@
           
           <section class="columns is-centered tabs is-large">
             <ul>
-              <li class="is-active"><a>Karl Johan</a></li>
-              <li class="tablinks" onclick="openTab"><a>Operaen</a></li>
-              <li><a>Stovner</a></li>
-              <li><a>Bislett</a></li>
+              <li class="tablinks is-active" onclick="openTab(event, 'kj-section')"><a>Karl Johan</a></li>
+              <li class="tablinks" onclick="openTab(event, 'operaen-section')"><a>Operaen</a></li>
+              <li class="tablinks" onclick="openTab(event, 'stovner-section')"><a>Stovner</a></li>
+              <li class="tablinks" onclick="openTab(event, 'bislett-section')"><a>Bislett</a></li>
             </ul>
           </section> <!-- Slutt på tab-bar section -->
 
 
           <!-- Start på hoveddelen -->
+          
           <main>
-            <section class="columns">
-              <article class="column">
-                <div class="columns">
+            
+              
+                
                   
-                  <section id="information-section" class="column">
-                    <div></div>
-                  </section>
+                  
+                    <div id="kj-section" class="tabcontent">
+                      <h1 class="is-size-4">ID: 1</h1>
+                      <h2 class="has-text-weight-bold">Lokasjon: Karl Johan</h2>
+                      <p>Åpningstider: kl. 11-00</p>
+                      <p>Tlf: 71582859</p>
+                      <img src="images/1.jpg" alt="Karl Johan bilde">
+                    </div>
+                  
 
-                  <section id="image-section" class="column">
-                  <div></div>
-                  </section>
+                  
+                    <div id="operaen-section" class="tabcontent">
+                      <h1 class="is-size-4">ID: 2</h1>
+                      <h2 class="has-text-weight-bold">Lokasjon: Operaen</h2>
+                      <p>Åpningstider: kl. 11-00</p>
+                      <p>Tlf: 92938283</p>
+                      <img src="images/2.jpg" alt="Operaen bilde">
+                    </div>
+                  
 
-                </div>
-              </article>
-            </section>
+                    <div id="stovner-section" class="tabcontent">
+                      <h1 class="is-size-4">ID: 3</h1>
+                      <h2 class="has-text-weight-bold">Lokasjon: Stovner</h2>
+                      <p>Åpningstider: kl. 11-22</p>
+                      <p>Tlf: 60003005</p>
+                      <img src="images/3.png" alt="Stovner bilde">
+                    </div>
+                  
+
+                  
+                    <div id="bislett-section" class="tabcontent">
+                      <h1 class="is-size-4">ID: 4</h1>
+                      <h2 class="has-text-weight-bold">Lokasjon: Bislett</h2>
+                      <p>Åpningstider: kl. 11-23</p>
+                      <p>Tlf: 90901090</p>
+                      <img src="images/4.png" alt="Bislett bilde">
+                    </div>
+                
+
+            
 
 
 

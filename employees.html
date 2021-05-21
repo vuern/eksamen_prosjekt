@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gyldne Pizza - ansatte</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
 
     <!-- css -->
     <link rel="stylesheet" href="css/main.css" />
 
     <!-- scripts -->
-    <script defer type="module" src="/js/employees/index.js"></script>
+    <script defer type="module" src="/js/restaurants/index.js"></script>
   </head>
   <body>
     <div class="wrap">
       <header>
-        <h1 class="title">Gyldne Pizza</h1>
+        <h1 class="title has-text-weight-bold">Gyldne Pizza</h1>
       </header>
 
       <!-- Link til de ulike sidene -->
@@ -26,10 +27,24 @@
         <div><a href="menu.html">meny</a></div>
       </nav>
 
-      <div class="content">
-        <h2>Ansatte</h2>
-        <!-- liste over ansatte -->
-      </div>
-    </div>
-  </body>
-</html>
+      <!-- Start på container -->
+      <div class="container">
+
+        <main>
+        
+          <header class="is-size-3 ">
+            <h1>Ansatte</h1>
+          </header>
+
+          <!-- Start på tab-bar section -->
+            <section class="tabs is-large columns is-centered">
+              <article class="column">
+                <ul>
+                  <li class="is-active" data-target="kj-content"><a>Karl Johan</a></li>
+                  <li data-target="operaen-content"><a>Operaen</a></li>
+                  <li data-target="stovner-content"><a>Stovner</a></li>
+                  <li data-target="bislett-content"><a>Bislett</a></li>
+                </ul>
+              </article>
+            </section> <!-- Slutt på tab-bar section -->
+              
